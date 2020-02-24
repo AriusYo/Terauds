@@ -1,0 +1,351 @@
+%% signālu gabalu analizēšama
+% laikam
+%% sinusoīdai y =Ao+A*sin(2*pi*f(t-delay))
+edit
+lab3_demo
+lab3_demo
+lab3_demo
+Undefined function or variable 't'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 22)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',22,0)">line 22</a>)
+y_const = 1.5+zeros(size(t+const));
+
+Undefined function or variable 't'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 22)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',22,0)">line 22</a>)
+y_const = 1.5+zeros(size(t+const));
+
+lab3_demo
+rand
+
+ans =
+
+    0.8147
+
+rand
+
+ans =
+
+    0.9058
+
+rand
+
+ans =
+
+    0.1270
+
+rand
+
+ans =
+
+    0.9134
+
+rand(-0.75:0.75)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be integers.
+} 
+rand(1,3)
+
+ans =
+
+    0.6324    0.0975    0.2785
+
+rand(2,3)
+
+ans =
+
+    0.5469    0.9649    0.9706
+    0.9575    0.1576    0.9572
+
+lab3_demo
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be integers.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 30)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',30,0)">line 30</a>)
+y_noise = (rand(size(t_noise)*1.5)-0.75);
+} 
+lab3_demo
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be integers.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 30)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',30,0)">line 30</a>)
+y_noise = (rand(size(t_noise)*1.5)-0.75);
+} 
+lab3_demo
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('rand')" style="font-weight:bold">rand</a>
+Size inputs must be integers.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 30)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',30,0)">line 30</a>)
+y_noise = (rand(size(t_noise)*1.5)-0.75);
+} 
+lab3_demo
+lab3_demo
+lab3_demo
+lab3_demo
+lab3_demo
+lab3_demo
+lab3_demo
+%% nakamais uzd būtu
+%pārveidot scriptu kas uzīmē mūsu doto signāl par f_ju
+% kas atgriež signāla vērtības
+lab3_demo
+2>6
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+t = [0 1 2 3 4 5 6]
+
+t =
+
+     0     1     2     3     4     5     6
+
+tf = t<3
+
+tf =
+
+  1×7 <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a> array
+
+   1   1   1   0   0   0   0
+
+t2 = t(tf)
+
+t2 =
+
+     0     1     2
+
+lab3_demo(2)
+
+t_noise =
+
+     []
+
+
+ans =
+
+   1.8370e-16
+
+lab3_demo(4)
+
+t_noise =
+
+     []
+
+
+ans =
+
+    1.5000
+
+t = 0:0.01:6.5;
+y = lab3_demo(t)
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 7)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',7,0)">line 7</a>)
+t_saw = t(t(t_saw_f));
+} 
+y = lab3_demo(t);
+{Array indices must be positive integers or logical values.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('lab3_demo', '/home/user/Terauds/labd3/lab3_demo.m', 7)" style="font-weight:bold">lab3_demo</a> (<a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',7,0)">line 7</a>)
+t_saw = t(t(t_saw_f));
+} 
+y = lab3_demo(t);
+{Error: <a href="matlab: opentoline('/home/user/Terauds/labd3/lab3_demo.m',7,19)">File: lab3_demo.m Line: 7 Column: 19
+</a>Invalid expression. When calling a function or indexing a variable, use parentheses.
+Otherwise, check for mismatched delimiters.
+} 
+y = lab3_demo(t);
+
+t_noise =
+
+  Columns 1 through 9
+
+    5.0000    5.0100    5.0200    5.0300    5.0400    5.0500    5.0600    5.0700    5.0800
+
+  Columns 10 through 18
+
+    5.0900    5.1000    5.1100    5.1200    5.1300    5.1400    5.1500    5.1600    5.1700
+
+  Columns 19 through 27
+
+    5.1800    5.1900    5.2000    5.2100    5.2200    5.2300    5.2400    5.2500    5.2600
+
+  Columns 28 through 36
+
+    5.2700    5.2800    5.2900    5.3000    5.3100    5.3200    5.3300    5.3400    5.3500
+
+  Columns 37 through 45
+
+    5.3600    5.3700    5.3800    5.3900    5.4000    5.4100    5.4200    5.4300    5.4400
+
+  Columns 46 through 54
+
+    5.4500    5.4600    5.4700    5.4800    5.4900    5.5000    5.5100    5.5200    5.5300
+
+  Columns 55 through 63
+
+    5.5400    5.5500    5.5600    5.5700    5.5800    5.5900    5.6000    5.6100    5.6200
+
+  Columns 64 through 72
+
+    5.6300    5.6400    5.6500    5.6600    5.6700    5.6800    5.6900    5.7000    5.7100
+
+  Columns 73 through 81
+
+    5.7200    5.7300    5.7400    5.7500    5.7600    5.7700    5.7800    5.7900    5.8000
+
+  Columns 82 through 90
+
+    5.8100    5.8200    5.8300    5.8400    5.8500    5.8600    5.8700    5.8800    5.8900
+
+  Columns 91 through 99
+
+    5.9000    5.9100    5.9200    5.9300    5.9400    5.9500    5.9600    5.9700    5.9800
+
+  Columns 100 through 108
+
+    5.9900    6.0000    6.0100    6.0200    6.0300    6.0400    6.0500    6.0600    6.0700
+
+  Columns 109 through 117
+
+    6.0800    6.0900    6.1000    6.1100    6.1200    6.1300    6.1400    6.1500    6.1600
+
+  Columns 118 through 126
+
+    6.1700    6.1800    6.1900    6.2000    6.2100    6.2200    6.2300    6.2400    6.2500
+
+  Columns 127 through 135
+
+    6.2600    6.2700    6.2800    6.2900    6.3000    6.3100    6.3200    6.3300    6.3400
+
+  Columns 136 through 144
+
+    6.3500    6.3600    6.3700    6.3800    6.3900    6.4000    6.4100    6.4200    6.4300
+
+  Columns 145 through 151
+
+    6.4400    6.4500    6.4600    6.4700    6.4800    6.4900    6.5000
+
+y = lab3_demo(t);
+
+t_noise =
+
+  Columns 1 through 9
+
+    5.0000    5.0100    5.0200    5.0300    5.0400    5.0500    5.0600    5.0700    5.0800
+
+  Columns 10 through 18
+
+    5.0900    5.1000    5.1100    5.1200    5.1300    5.1400    5.1500    5.1600    5.1700
+
+  Columns 19 through 27
+
+    5.1800    5.1900    5.2000    5.2100    5.2200    5.2300    5.2400    5.2500    5.2600
+
+  Columns 28 through 36
+
+    5.2700    5.2800    5.2900    5.3000    5.3100    5.3200    5.3300    5.3400    5.3500
+
+  Columns 37 through 45
+
+    5.3600    5.3700    5.3800    5.3900    5.4000    5.4100    5.4200    5.4300    5.4400
+
+  Columns 46 through 54
+
+    5.4500    5.4600    5.4700    5.4800    5.4900    5.5000    5.5100    5.5200    5.5300
+
+  Columns 55 through 63
+
+    5.5400    5.5500    5.5600    5.5700    5.5800    5.5900    5.6000    5.6100    5.6200
+
+  Columns 64 through 72
+
+    5.6300    5.6400    5.6500    5.6600    5.6700    5.6800    5.6900    5.7000    5.7100
+
+  Columns 73 through 81
+
+    5.7200    5.7300    5.7400    5.7500    5.7600    5.7700    5.7800    5.7900    5.8000
+
+  Columns 82 through 90
+
+    5.8100    5.8200    5.8300    5.8400    5.8500    5.8600    5.8700    5.8800    5.8900
+
+  Columns 91 through 99
+
+    5.9000    5.9100    5.9200    5.9300    5.9400    5.9500    5.9600    5.9700    5.9800
+
+  Columns 100 through 108
+
+    5.9900    6.0000    6.0100    6.0200    6.0300    6.0400    6.0500    6.0600    6.0700
+
+  Columns 109 through 117
+
+    6.0800    6.0900    6.1000    6.1100    6.1200    6.1300    6.1400    6.1500    6.1600
+
+  Columns 118 through 126
+
+    6.1700    6.1800    6.1900    6.2000    6.2100    6.2200    6.2300    6.2400    6.2500
+
+  Columns 127 through 135
+
+    6.2600    6.2700    6.2800    6.2900    6.3000    6.3100    6.3200    6.3300    6.3400
+
+  Columns 136 through 144
+
+    6.3500    6.3600    6.3700    6.3800    6.3900    6.4000    6.4100    6.4200    6.4300
+
+  Columns 145 through 151
+
+    6.4400    6.4500    6.4600    6.4700    6.4800    6.4900    6.5000
+
+plot(t,y)
+lab3_demo(2)
+
+t_noise =
+
+     []
+
+
+ans =
+
+     []
+
+lab3_demo(2)
+
+ans =
+
+     []
+
+lab3_demo(2)
+
+ans =
+
+     []
+
+lab3_demo(4)
+
+ans =
+
+     []
+
+lab3_demo(4)
+
+ans =
+
+     []
+
+lab3_demo()
+
+ans =
+
+     []
+
+lab3_demo(4)
+
+ans =
+
+     []
+
